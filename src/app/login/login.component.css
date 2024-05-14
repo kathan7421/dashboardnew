@@ -1,0 +1,19 @@
+.col-md-8 {
+    margin: auto;
+    display: block;
+    vertical-align: middle;
+    padding: 100px;
+    background: aliceblue;
+}
+.container {
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    margin-bottom: 20px;
+}
