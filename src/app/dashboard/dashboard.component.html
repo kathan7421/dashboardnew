@@ -1,6 +1,11 @@
 
-<p>gg</p>
+<!-- <app-layout></app-layout> -->
+
+
+<p>Dashboard
+
+</p>
 <div *ngIf="currentUser">
-    <h1>Welcome, {{ currentUser.name }}!</h1>
+    <h1>Welcome, {{ userName }}!</h1>
     <button (click)="logout()">Logout</button>
   </div>
